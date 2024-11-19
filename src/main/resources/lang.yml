@@ -1,0 +1,7 @@
+resourcepack:
+  prompt: "<gold>Veuillez accepter le resource pack pour continuer !"
+  success: "<green>Le resource pack a été chargé avec succès !"
+  declined: "<yellow>Vous avez refusé de télécharger le resource pack. Certaines fonctionnalités peuvent être indisponibles."
+  failed: "<red>Le téléchargement du resource pack a échoué. Veuillez vérifier votre connexion."
+  kick: "Le resource pack est obligatoire pour jouer sur ce serveur. Reconnectez-vous pour essayer à nouveau."
+  invalid: "<red>Le resource pack n'est pas correctement configuré. Contactez un administrateur."
