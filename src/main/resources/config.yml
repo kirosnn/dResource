@@ -1,4 +1,3 @@
 resourcePack:
-  url: "https://download.mc-packs.net/pack/9586c10668316da2c4282fa49aa04a43b83aeb0c.zip"
-  hash: "" # Peut être laisser vide, sera générer par le plugin lors du premier chargement du plugin
+  url: "https://download.mc-packs.net/pack/65e23c62cfa9738c35fd736b237626f8226a3c2a.zip" # URL de base (utilisée avant fusion)
   mandatory: true # Détermine si le resource pack est obligatoire

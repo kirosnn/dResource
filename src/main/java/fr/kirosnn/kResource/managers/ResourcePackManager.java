@@ -17,9 +17,6 @@ public class ResourcePackManager {
         loadResourcePackConfiguration();
     }
 
-    /**
-     * Charge la configuration et génère le hash si nécessaire.
-     */
     private void loadResourcePackConfiguration() {
         this.resourcePackUrl = plugin.getConfig().getString("resourcePack.url");
         String hashBase64 = plugin.getConfig().getString("resourcePack.hash");
@@ -51,20 +48,10 @@ public class ResourcePackManager {
         }
     }
 
-    /**
-     * Retourne l'URL du resource pack.
-     *
-     * @return L'URL du resource pack.
-     */
     public String getResourcePackUrl() {
         return resourcePackUrl;
     }
 
-    /**
-     * Retourne le hash du resource pack.
-     *
-     * @return Le hash en tableau de bytes.
-     */
     public byte[] getResourcePackHash() {
         return resourcePackHash;
     }
