@@ -1,6 +1,6 @@
-package fr.kirosnn.kResource.listeners;
+package fr.kirosnn.dResource.listeners;
 
-import fr.kirosnn.kResource.KResource;
+import fr.kirosnn.dResource.dResource;
 import net.kyori.adventure.text.Component;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
@@ -11,9 +11,9 @@ import org.jetbrains.annotations.NotNull;
 
 public class ResourcePackStatus implements Listener {
 
-    private final @NotNull KResource plugin;
+    private final @NotNull dResource plugin;
 
-    public ResourcePackStatus(@NotNull KResource plugin) {
+    public ResourcePackStatus(@NotNull dResource plugin) {
         this.plugin = plugin;
     }
 

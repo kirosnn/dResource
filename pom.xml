@@ -5,11 +5,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>fr.kirosnn</groupId>
-  <artifactId>kResource</artifactId>
+  <artifactId>dResource</artifactId>
   <version>beta</version>
   <packaging>jar</packaging>
 
-  <name>kRessource</name>
+  <name>dResource</name>
 
   <properties>
     <java.version>17</java.version>

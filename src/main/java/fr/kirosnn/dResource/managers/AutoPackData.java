@@ -1,4 +1,4 @@
-package fr.kirosnn.kResource.managers;
+package fr.kirosnn.dResource.managers;
 
 import java.io.File;
 import java.util.List;

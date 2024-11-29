@@ -1,4 +1,4 @@
-package fr.kirosnn.kResource.utils;
+package fr.kirosnn.dResource.utils;
 
 import org.bukkit.plugin.Plugin;
 import org.jetbrains.annotations.NotNull;

@@ -1,6 +1,6 @@
-package fr.kirosnn.kResource.managers;
+package fr.kirosnn.dResource.managers;
 
-import fr.kirosnn.kResource.utils.ResourcePackUtils;
+import fr.kirosnn.dResource.utils.ResourcePackUtils;
 import org.bukkit.configuration.ConfigurationSection;
 import org.bukkit.plugin.Plugin;
 import org.jetbrains.annotations.NotNull;

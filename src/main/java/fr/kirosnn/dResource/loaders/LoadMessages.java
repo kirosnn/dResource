@@ -1,4 +1,4 @@
-package fr.kirosnn.kResource.loaders;
+package fr.kirosnn.dResource.loaders;
 
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;

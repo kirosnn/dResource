@@ -1,17 +1,17 @@
-package fr.kirosnn.kResource;
+package fr.kirosnn.dResource;
 
-import fr.kirosnn.kResource.files.ConfigManager;
-import fr.kirosnn.kResource.files.LangManager;
-import fr.kirosnn.kResource.listeners.PlayerJoin;
-import fr.kirosnn.kResource.listeners.ResourcePackStatus;
-import fr.kirosnn.kResource.loaders.LoadListeners;
-import fr.kirosnn.kResource.loaders.LoadMessages;
-import fr.kirosnn.kResource.managers.ResourcePackManager;
+import fr.kirosnn.dResource.files.ConfigManager;
+import fr.kirosnn.dResource.files.LangManager;
+import fr.kirosnn.dResource.listeners.PlayerJoin;
+import fr.kirosnn.dResource.listeners.ResourcePackStatus;
+import fr.kirosnn.dResource.loaders.LoadListeners;
+import fr.kirosnn.dResource.loaders.LoadMessages;
+import fr.kirosnn.dResource.managers.ResourcePackManager;
 import net.kyori.adventure.platform.bukkit.BukkitAudiences;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.jetbrains.annotations.NotNull;
 
-public final class KResource extends JavaPlugin {
+public final class dResource extends JavaPlugin {
 
     private ConfigManager configManager;
     private LangManager langManager;

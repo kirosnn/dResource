@@ -1,4 +1,4 @@
-package fr.kirosnn.kResource.files;
+package fr.kirosnn.dResource.files;
 
 import net.kyori.adventure.text.Component;
 import net.kyori.adventure.text.minimessage.MiniMessage;

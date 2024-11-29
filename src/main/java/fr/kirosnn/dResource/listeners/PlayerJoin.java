@@ -1,7 +1,7 @@
-package fr.kirosnn.kResource.listeners;
+package fr.kirosnn.dResource.listeners;
 
-import fr.kirosnn.kResource.KResource;
-import fr.kirosnn.kResource.utils.Text;
+import fr.kirosnn.dResource.dResource;
+import fr.kirosnn.dResource.utils.Text;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
@@ -12,9 +12,9 @@ import java.io.File;
 
 public class PlayerJoin implements Listener {
 
-    private final @NotNull KResource plugin;
+    private final @NotNull dResource plugin;
 
-    public PlayerJoin(@NotNull KResource plugin) {
+    public PlayerJoin(@NotNull dResource plugin) {
         this.plugin = plugin;
     }
 

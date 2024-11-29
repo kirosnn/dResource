@@ -1,4 +1,4 @@
-package fr.kirosnn.kResource.files;
+package fr.kirosnn.dResource.files;
 
 import me.clip.placeholderapi.PlaceholderAPI;
 import org.bukkit.Bukkit;

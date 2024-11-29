@@ -1,4 +1,4 @@
-package fr.kirosnn.kResource.utils;
+package fr.kirosnn.dResource.utils;
 
 import net.kyori.adventure.text.Component;
 import net.kyori.adventure.text.format.TextDecoration;
