@@ -30,9 +30,9 @@ public class ResourcePackStatus implements Listener {
 
             case DECLINED:
                 if (plugin.getConfig().getBoolean("resourcePack.mandatory", false)) {
-                    Bukkit.getScheduler().runTask(plugin, () ->
-                            player.kickPlayer(plugin.getLangManager().getMessage("resourcepack.kick"))
-                    );
+                    Bukkit.getScheduler().runTask(plugin, () -> {
+                        player.kickPlayer(plugin.getLangManager().getMessage("resourcepack.kick"));
+                    });
                 } else {
                     Component declinedMessage = plugin.getLangManager().getFormattedMessage("resourcepack.declined");
                     plugin.adventure().player(player).sendMessage(declinedMessage);
@@ -45,7 +45,6 @@ public class ResourcePackStatus implements Listener {
                 break;
 
             case ACCEPTED:
-                plugin.getLogger().info(player.getName() + " a accepté de télécharger le resource pack.");
                 break;
         }
     }

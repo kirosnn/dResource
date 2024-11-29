@@ -1,3 +1,14 @@
 resourcePack:
-  url: "https://download.mc-packs.net/pack/65e23c62cfa9738c35fd736b237626f8226a3c2a.zip" # URL de base (utilisée avant fusion)
-  mandatory: true # Détermine si le resource pack est obligatoire
+  url: "https://download.mc-packs.net/pack/65e23c62cfa9738c35fd736b237626f8226a3c2a.zip"
+  mandatory: true
+  auto-pack:
+    BetterHUD:
+      path: "plugins/BetterHud/build.zip"
+      absolutePath: false
+      skipFiles:
+        - assets/minecraft/textures/gui/
+    ExamplePlugin:
+      path: "plugins/ExamplePlugin/resourcepack.zip"
+      absolutePath: true
+      skipFiles:
+        - pack.png
